@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12896a88-f6ba-4598-9252-810cc5d5c489" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kharina/study/music/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kharina/study/music/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/kharina/study/music/TestMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kharina/study/music/TestMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -77,7 +79,8 @@
       <updated>1666268914300</updated>
       <workItem from="1666268915788" duration="3022000" />
       <workItem from="1666283885710" duration="1310000" />
-      <workItem from="1666290830859" duration="260000" />
+      <workItem from="1666290830859" duration="509000" />
+      <workItem from="1666292181297" duration="2753000" />
     </task>
     <servers />
   </component>
