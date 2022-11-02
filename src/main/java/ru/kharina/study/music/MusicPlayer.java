@@ -2,9 +2,11 @@ package ru.kharina.study.music;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class MusicPlayer {
     private Music music;
+    private ClassicalMusic classicalMusic;
 
     private List<Music> musicList = new ArrayList<>();
     private String name;
@@ -26,11 +28,8 @@ public class MusicPlayer {
         this.volume = volume;
     }
 
-    public MusicPlayer(Music music) {
-        this.music = music;
-    }
-
-    public MusicPlayer() {
+    public MusicPlayer(List<Music> musicList) {
+        this.musicList = musicList;
     }
 
     public void setMusicList(List<Music> musicList) {
@@ -38,15 +37,15 @@ public class MusicPlayer {
     }
 
     public void playMusicList(){
-        for (Music music : musicList)
-            System.out.println("Playing "+music.getClass().getSimpleName()+" "+music.playSong());
     }
 
     public void setMusic(Music music) {
         this.music = music;
     }
 
-    public void playMusic() {
-        System.out.println("Playing: "+music.playSong());
+    public String playMusic() {
+        Random random = new Random();
+
+        return "Playing: " + musicList.get(random.nextInt(musicList.size())).playSong();
     }
 }

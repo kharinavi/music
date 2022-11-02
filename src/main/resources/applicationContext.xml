@@ -7,9 +7,10 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+    <!--<context:property-placeholder location="classpath:musicPlayer.properties"/>-->
+    <context:component-scan base-package="ru.kharina.study.music"/>
 
-    <bean id="rockBean"
+    <!--<bean id="rockBean"
           class="ru.kharina.study.music.RockMusic">
     </bean>
     <bean id="classicalBean"
@@ -29,6 +30,6 @@
         </property>
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
-    </bean>
+    </bean>-->
 
 </beans>
